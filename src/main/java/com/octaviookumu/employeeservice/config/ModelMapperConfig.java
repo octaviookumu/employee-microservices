@@ -9,7 +9,7 @@ public class ModelMapperConfig {
 
     // Making it a Bean makes it an injected object
     @Bean
-    ModelMapper modelMapper(){
+    ModelMapper modelMapper() {
         return new ModelMapper();
     }
 }
